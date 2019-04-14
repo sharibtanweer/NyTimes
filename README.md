@@ -3,7 +3,7 @@ Import Project in Android Studio
 
 Import project in android studio like following steps:
 
-    First Download the project from download button above.
+    First Download the project from download button above clone or download green button.
     
     Start Android Studio.
 
