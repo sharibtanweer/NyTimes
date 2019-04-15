@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_panel_back"/>
+
+        <TextView
+            android:id="@+id/top_text"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="NyTimes Details"
+            android:gravity="center"
+            android:textColor="@color/light2Grey"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/item_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textIsSelectable="true"/>
+
+</LinearLayout>
